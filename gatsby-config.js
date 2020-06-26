@@ -5,7 +5,10 @@ module.exports = {
         author: `@gatsbyjs`
     },
     plugins: [
+        // Server-side rendering plugin
         `gatsby-plugin-react-helmet`,
+
+        // Read hard drive plugin
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -13,6 +16,18 @@ module.exports = {
                 path: `${__dirname}/src/images`
             }
         },
+
+        // Markdown Handling
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `markdown-pages`,
+                path: `${__dirname}/src/markdown-pages`
+            }
+        },
+        `gatsby-transformer-remark`,
+
+        // Base plugins
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         {
