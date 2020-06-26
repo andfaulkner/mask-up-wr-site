@@ -27,6 +27,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "build-prod": "gatsby build",
+    "deploy-test": "cd ./public; echo ''; echo '*** NOTE: PLEASE INPUT \"mask-up-wr-site-test.surge.sh\" WHEN THE DOMAIN IS REQUESTED BELOW ***'; surge; cd ../",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
