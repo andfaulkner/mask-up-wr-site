@@ -51,9 +51,19 @@ const Layout = ({children}) => {
                                 Home
                             </Link>
                         </div>
-                        <div>
+                        <div style={{marginRight: 12}}>
+                            <Link style={{fontSize: 15}} to="/faq">
+                                FAQ
+                            </Link>
+                        </div>
+                        <div style={{marginRight: 12}}>
                             <Link style={{fontSize: 15}} to="/write-to-council">
                                 Write to regional council
+                            </Link>
+                        </div>
+                        <div>
+                            <Link style={{fontSize: 15}} to="/who-are-we">
+                                Who are we?
                             </Link>
                         </div>
                     </div>

@@ -16,9 +16,21 @@ const IndexPage = () => (
         </p>
         <p>Thank you for your support!</p>
         <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>{/*<Image />*/}</div>
-        <Link to="/why-a-mask/">Why a mask?</Link> <br />
-        <Link to="/faq/">FAQ</Link> <br />
-        <Link to="/who-are-we/">Who are we?</Link> <br />
+
+        <ol>
+            <li>
+                <Link to="/why-a-mask/">Why a mask?</Link>
+            </li>
+            <li>
+                <Link to="/faq/">FAQ</Link>
+            </li>
+            <li>
+                <Link to="/write-to-council/">Write to regional council</Link>
+            </li>
+            <li>
+                <Link to="/who-are-we/">Who are we?</Link>
+            </li>
+        </ol>
     </Layout>
 );
 
