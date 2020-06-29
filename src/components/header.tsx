@@ -1,4 +1,5 @@
 import {Link} from 'gatsby';
+import Image from '../components/image';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -14,8 +15,13 @@ const Header = ({siteTitle}) => (
                 margin: `0 auto`,
                 maxWidth: 960,
                 padding: `1.45rem 1.0875rem`,
+                display: 'flex',
+                alignItems: 'center'
             }}
         >
+            <div>
+                <Image />
+            </div>
             <h1 style={{margin: 0}}>
                 <Link
                     to="/"
