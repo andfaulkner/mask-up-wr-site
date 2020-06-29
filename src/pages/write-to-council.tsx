@@ -6,8 +6,8 @@ import SEO from '../components/seo';
 
 const WriteToCouncil = () => (
     <Layout>
-        <SEO title="Write to your regional council" />
-        <h1>Write to your regional council</h1>
+        <SEO title="Write to regional council" />
+        <h1>How to write a letter to regional council</h1>
 
         <ol>
             <li>

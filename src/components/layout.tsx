@@ -39,31 +39,32 @@ const Layout = ({children}) => {
                         style={{
                             display: 'flex',
                             justifyContent: 'start',
+                            alignItems: `center`,
                             borderTop: `1px gray solid`,
                             paddingTop: 2,
                             marginTop: 12,
-                            fontSize: 15,
+                            fontSize: 14,
                         }}
                     >
-                        <div style={{marginRight: 12}}>© {new Date().getFullYear()}</div>
+                        <div style={{marginRight: 12, fontSize: 12}}>© {new Date().getFullYear()}</div>
                         <div style={{marginRight: 12}}>
-                            <Link style={{fontSize: 15}} to="/">
+                            <Link style={{fontSize: 14}} to="/">
                                 Home
                             </Link>
                         </div>
                         <div style={{marginRight: 12}}>
-                            <Link style={{fontSize: 15}} to="/faq">
+                            <Link style={{fontSize: 14}} to="/faq">
                                 FAQ
                             </Link>
                         </div>
                         <div style={{marginRight: 12}}>
-                            <Link style={{fontSize: 15}} to="/write-to-council">
-                                Write to regional council
+                            <Link style={{fontSize: 14}} to="/write-to-council/">
+                                Write to council
                             </Link>
                         </div>
                         <div>
-                            <Link style={{fontSize: 15}} to="/who-are-we">
-                                Who are we?
+                            <Link style={{fontSize: 14}} to="/who-are-we">
+                                Who we are
                             </Link>
                         </div>
                     </div>

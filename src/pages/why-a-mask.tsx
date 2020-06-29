@@ -101,20 +101,14 @@ const WhyAMask = () => (
             .
         </p>
 
-        <p>
-            <div style={{paddingBottom: 8}}>
-                <h4>Masks:</h4>
-            </div>
-            <ul>
-                <li>Are fashionable</li>
-                <li>Show you care about your neighbours</li>
-                <li>Stop you from spraying your face juice all over the place</li>
-            </ul>
-        </p>
+        <h4 style={{paddingBottom: 8, marginBottom: 0}}>Masks:</h4>
+        <ul>
+            <li>Are fashionable</li>
+            <li>Show you care about your neighbours</li>
+            <li>Stop you from spraying your face juice all over the place</li>
+        </ul>
 
-        <div style={{marginBottom: 10}}>
-            <Link to="/faq">Next page: FAQ</Link>
-        </div>
+        <Link to="/faq">Next page: FAQ</Link>
     </Layout>
 );
 

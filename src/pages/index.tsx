@@ -12,7 +12,7 @@ const IndexPage = () => (
         <p style={{marginBottom: `0px`}}>Do you already support a mandatory face-mask bylaw in Waterloo Region?</p>
         <p>
             Please skip to{' '}
-            <Link to="/write-to-council">How To Write A Letter To Your Regional Council</Link>.
+            <Link to="/write-to-council">How To Write A Letter To Regional Council</Link>.
         </p>
         <p>Thank you for your support!</p>
 
