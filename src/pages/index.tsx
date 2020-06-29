@@ -12,14 +12,13 @@ const IndexPage = () => (
         <p>Do you already support a mandatory face-mask bylaw in Waterloo Region?</p>
         <p>
             Please skip to{' '}
-            <Link to="/how-to-write-a-letter">How To Write A Letter To Your Regional Council</Link>
+            <Link to="/write-to-council">How To Write A Letter To Your Regional Council</Link>
         </p>
         <p>Thank you for your support!</p>
-        <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>
-            {/*<Image />*/}
-        </div>
-        <Link to="/page-2/">Go to page 2</Link> <br />
-        <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+        <div style={{maxWidth: `300px`, marginBottom: `1.45rem`}}>{/*<Image />*/}</div>
+        <Link to="/why-a-mask/">Why a mask?</Link> <br />
+        <Link to="/faq/">FAQ</Link> <br />
+        <Link to="/who-are-we/">Who are we?</Link> <br />
     </Layout>
 );
 
