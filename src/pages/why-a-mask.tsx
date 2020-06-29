@@ -4,7 +4,7 @@ import {Link} from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-const SecondPage = () => (
+const WhyAMask = () => (
     <Layout>
         <SEO title="Why a mask?" />
         <h1>Why a mask?</h1>
@@ -45,6 +45,7 @@ const SecondPage = () => (
             <a href="https://www.npr.org/sections/coronavirus-live-updates/2020/06/24/883017035/what-contact-tracing-may-tell-about-cluster-spread-of-the-coronavirus">
                 Working or socializing with people without masks
             </a>
+            .
         </p>
 
         <p>
@@ -71,7 +72,7 @@ const SecondPage = () => (
             <b>all that other good stuff we miss.</b>
         </p>
 
-        <p>Here’s some good news; it hardly matters what kind of mask you wear. </p>
+        <p>Here's some good news: it hardly matters what kind of mask you wear.</p>
 
         <p>
             It all comes down to{' '}
@@ -100,8 +101,21 @@ const SecondPage = () => (
             .
         </p>
 
-        <Link to="/faq">Next page: FAQ</Link>
+        <p>
+            <div style={{paddingBottom: 8}}>
+                <h4>Masks:</h4>
+            </div>
+            <ul>
+                <li>Are fashionable</li>
+                <li>Show you care about your neighbours</li>
+                <li>Stop you from spraying your face juice all over the place</li>
+            </ul>
+        </p>
+
+        <div style={{marginBottom: 10}}>
+            <Link to="/faq">Next page: FAQ</Link>
+        </div>
     </Layout>
 );
 
-export default SecondPage;
+export default WhyAMask;

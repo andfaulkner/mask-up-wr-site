@@ -35,13 +35,26 @@ const Layout = ({children}) => {
             >
                 <main>{children}</main>
                 <footer>
-                    <div style={{display: 'flex', justifyContent: 'start'}}>
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'start',
+                            borderTop: `1px gray solid`,
+                            paddingTop: 2,
+                            marginTop: 12,
+                            fontSize: 15,
+                        }}
+                    >
                         <div style={{marginRight: 12}}>© {new Date().getFullYear()}</div>
                         <div style={{marginRight: 12}}>
-                            <Link to="/">Home</Link>
+                            <Link style={{fontSize: 15}} to="/">
+                                Home
+                            </Link>
                         </div>
                         <div>
-                            <Link to="/write-to-council">Write to regional council</Link>
+                            <Link style={{fontSize: 15}} to="/write-to-council">
+                                Write to regional council
+                            </Link>
                         </div>
                     </div>
                 </footer>
