@@ -37,8 +37,8 @@ const Layout = ({children}) => {
                 <footer>
                     <div>© {new Date().getFullYear()}</div>
                     <div>
-                        <Link to="/how-to-write-a-letter">
-                            Write to your regional counsel
+                        <Link to="/write-to-council">
+                            Write to Regional council
                         </Link>
                     </div>
                 </footer>
