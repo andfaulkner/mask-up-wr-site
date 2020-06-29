@@ -27,6 +27,10 @@ const WriteToCouncil = () => (
                 feel safer, or help you get out more?
             </li>
         </ol>
+
+        <div>
+            <Link to="/">Back to home</Link>
+        </div>
     </Layout>
 );
 
