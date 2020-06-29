@@ -14,7 +14,7 @@ const path = require(`path`);
 exports.createPages = async ({actions, graphql, reporter}) => {
     const {createPage} = actions;
 
-    const blogPostTemplate = require.resolve(`./src/templates/test-template.js`);
+    const blogPostTemplate = require.resolve(`./src/templates/test-template.tsx`);
 
     // Query the markdown file with graphql
     const result = await graphql(`
