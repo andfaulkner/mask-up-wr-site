@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Mask-Up Waterloo`,
+        title: `Mask Up Waterloo Region`,
         description: `Write letter to your regional council to support a mandatory face mask bylaw in the Waterloo region. Help fight COVID-19!`,
         author: `Andrew Faulkner`
     },
